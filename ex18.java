@@ -16,6 +16,7 @@ public class ex18 {
 		if (velocidade == 0 ) {
 			System.out.println("Seu veiculo está parado.");
 			
+<<<<<<< HEAD
 		}else if(velocidade <= 40) {
 			System.out.printf("%.1f km/h-- Seu veiculo está muito lento.",velocidade);
 		} else if( velocidade <= 60 ) {
@@ -28,5 +29,27 @@ public class ex18 {
 						System.out.printf("%.1f km/h-- Seu veiculo está muito rápido.",velocidade);
 				}
 		}
+=======
+		}else {
+			if(velocidade <= 40) {
+				System.out.println("Seu veiculo está muito lento.");
+			} else {
+				if(velocidade > 40 && velocidade <= 60 ) {
+					System.out.println("Seu veiculo está na velocidade permitida.");
+				}else {
+					if(velocidade > 60 && velocidade <= 80) {
+						System.out.println("Seu veiculo está em velocidade de cruzeiro.");
+					} else if (velocidade > 80  && velocidade <= 120) {
+						System.out.println("Seu veiculo está rápido.");
+					} else {
+						System.out.println("Seu veiculo está muito rápido.");
+					}
+				}
+			}
+		}
+		
+		
+	}
+>>>>>>> edf8dcebe1c13eb54a596fe1c69d84d5e90920bf
 
 }
