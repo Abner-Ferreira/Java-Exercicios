@@ -1,4 +1,4 @@
-package Exercicios;
+	package Exercicios;
 import java.util.Scanner;
 public class ex03 {
 
