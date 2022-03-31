@@ -26,7 +26,7 @@ public class ex18 {
 			System.out.printf("%.1f km/h-- Seu veiculo está rápido.",velocidade);
 
 		} else  {
-						System.out.printf("%.1f km/h-- Seu veiculo está muito rápido.",velocidade);
+			System.out.printf("%.1f km/h-- Seu veiculo está muito rápido.",velocidade);
 				}	
 	
 

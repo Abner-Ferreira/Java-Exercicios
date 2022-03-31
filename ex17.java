@@ -34,15 +34,7 @@ public class ex17 {
 			}else {
 				System.out.println("Você é homem e está ACIMA do peso!!");
 			}
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-			 
-=======
-			
->>>>>>> edf8dcebe1c13eb54a596fe1c69d84d5e90920bf
->>>>>>> a7cb6ff664d231595ee75f1f13e7d45461600350
 		}
 
 	}
