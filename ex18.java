@@ -15,7 +15,6 @@ public class ex18 {
 		velocidade = velocidade * 3.6 ;
 		if (velocidade == 0 ) {
 			System.out.println("Seu veiculo está parado.");
-			
 
 		}else if(velocidade <= 40) {
 			System.out.printf("%.1f km/h-- Seu veiculo está muito lento.",velocidade);
@@ -25,11 +24,12 @@ public class ex18 {
 			System.out.printf("%.1f km/h-- Seu veiculo está em velocidade de cruzeiro.",velocidade);
 		} else if ( velocidade <= 120) {
 			System.out.printf("%.1f km/h-- Seu veiculo está rápido.",velocidade);
+
 		} else  {
 						System.out.printf("%.1f km/h-- Seu veiculo está muito rápido.",velocidade);
 				}	
 	
+
+
 	}
-
-
 }
