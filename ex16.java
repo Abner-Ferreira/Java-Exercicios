@@ -6,6 +6,13 @@ public class ex16 {
 		Scanner ler = new Scanner (System.in);
 		double cateto1, cateto2, hipotenusa;
 		
+
+		System.out.println("Digite o valor do primeiro cateto: ");
+		cateto1 = ler.nextDouble();
+		System.out.println("Digite o valor do segundo cateto: ");
+		cateto2 = ler.nextDouble();
+		System.out.println("Digite o valor da hipotenusa: ");
+
 		System.out.println("Digite o primeiro valor: ");
 		cateto1 = ler.nextDouble();
 		System.out.println("Digite o segundo valor: ");

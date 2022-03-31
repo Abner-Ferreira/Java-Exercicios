@@ -8,7 +8,7 @@ public class ex15 {
 		System.out.printf("Digite o valor do primeiro número: ");
 		num1 = ler.nextDouble();
 		
-		System.out.printf("Digte o valor do degundo número: ");
+		System.out.printf("Digte o valor do segundo número: ");
 		num2 = ler.nextDouble();
 		
 		System.out.printf("Digite o valor do terceiro número: ");
